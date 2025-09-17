@@ -384,10 +384,10 @@ local Script = {
 
 getgenv().Sentinel = {
     Enabled = true,
-    HorizontalPrediction = 0.16669837465928374,
-    VerticalPrediction = 0.17402837465928374,
+    HorizontalPrediction = 0.16647837465928374,
+    VerticalPrediction = 0.17372837465928374,
     jumpoffset2 = 0,
-    jumpoffset = 0.16322837465928374,
+    jumpoffset = 0,
     ResolverEnabled = false,
     SelectedPart = "Head",
     AutoPrediction = false,
@@ -3238,7 +3238,7 @@ TargHighlight.Adornee = TargetPlr.Character
         TargHighlight.Enabled = true
     else
         TargHighlight.Adornee = nil
-        TargHighlight.Enabled = false
+        TargHighlight.Enabled = true
     end
 end)
 
